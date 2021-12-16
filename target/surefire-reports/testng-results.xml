@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-16T15:12:21 IST" name="Surefire suite" finished-at="2021-12-16T15:13:38 IST" duration-ms="76309">
+    <groups>
+    </groups>
+    <test started-at="2021-12-16T15:12:21 IST" name="Surefire test" finished-at="2021-12-16T15:13:38 IST" duration-ms="76309">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@4b2bac3f]" started-at="2021-12-16T15:12:22 IST" name="setup" finished-at="2021-12-16T15:12:44 IST" duration-ms="22547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:tests.LoginTest@4b2bac3f]" started-at="2021-12-16T15:12:44 IST" name="loginWithValidCredentials" finished-at="2021-12-16T15:12:46 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4b2bac3f]" started-at="2021-12-16T15:12:46 IST" name="tearDown" finished-at="2021-12-16T15:12:47 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@4b2bac3f]" started-at="2021-12-16T15:12:47 IST" name="setup" finished-at="2021-12-16T15:13:12 IST" duration-ms="24854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@4b2bac3f]" started-at="2021-12-16T15:13:12 IST" name="loginWithInvalidCredentials" finished-at="2021-12-16T15:13:13 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4b2bac3f]" started-at="2021-12-16T15:13:13 IST" name="tearDown" finished-at="2021-12-16T15:13:14 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@66d18979]" started-at="2021-12-16T15:13:14 IST" name="setup" finished-at="2021-12-16T15:13:24 IST" duration-ms="9663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithAnExistingProduct()[pri:1, instance:tests.SearchTest@66d18979]" started-at="2021-12-16T15:13:24 IST" name="searchWithAnExistingProduct" finished-at="2021-12-16T15:13:25 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithAnExistingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@66d18979]" started-at="2021-12-16T15:13:25 IST" name="tearDown" finished-at="2021-12-16T15:13:26 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@66d18979]" started-at="2021-12-16T15:13:26 IST" name="setup" finished-at="2021-12-16T15:13:36 IST" duration-ms="9316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithNonExistingProduct()[pri:2, instance:tests.SearchTest@66d18979]" started-at="2021-12-16T15:13:36 IST" name="searchWithNonExistingProduct" finished-at="2021-12-16T15:13:36 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithNonExistingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@66d18979]" started-at="2021-12-16T15:13:36 IST" name="tearDown" finished-at="2021-12-16T15:13:38 IST" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

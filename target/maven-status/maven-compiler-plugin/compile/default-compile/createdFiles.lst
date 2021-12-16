@@ -1,0 +1,5 @@
+pageobjects\HomePage.class
+pageobjects\AccountPage.class
+pageobjects\LoginPage.class
+resources\Base.class
+pageobjects\SearchPage.class
